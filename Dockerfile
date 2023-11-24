@@ -1,6 +1,6 @@
 # Build stage
 FROM krmp-d2hub-idock.9rum.cc/goorm/node:16
-WORKDIR /usr/src/app
+WORKDIR /usr/app/layout
 COPY krampoline-next/ ./
 RUN npm ci
 RUN npm run build
