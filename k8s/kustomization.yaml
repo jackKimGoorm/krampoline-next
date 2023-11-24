@@ -1,0 +1,5 @@
+namespace: krampoline-next
+resources:
+  - deployment.yaml
+  - service.yaml
+  - ingress.yaml
